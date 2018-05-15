@@ -149,8 +149,57 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\assets\css\font-awesome.min.css" />
+    <Content Include="Content\assets\css\ie8.css" />
+    <Content Include="Content\assets\css\ie9.css" />
+    <Content Include="Content\assets\css\images\arrow-small.svg" />
+    <Content Include="Content\assets\css\images\arrow.svg" />
+    <Content Include="Content\assets\css\images\close-small-alt.svg" />
+    <Content Include="Content\assets\css\images\close-small.svg" />
+    <Content Include="Content\assets\css\images\close.svg" />
+    <Content Include="Content\assets\css\images\open-small.svg" />
+    <Content Include="Content\assets\css\images\open.svg" />
+    <Content Include="Content\assets\css\images\spinner.svg" />
+    <Content Include="Content\assets\css\main.css" />
+    <Content Include="Content\assets\css\noscript.css" />
+    <Content Include="Content\assets\fonts\fontawesome-webfont.svg" />
+    <Content Include="Content\assets\js\ie\html5shiv.js" />
+    <Content Include="Content\assets\js\ie\PIE.htc" />
+    <Content Include="Content\assets\js\ie\respond.min.js" />
+    <Content Include="Content\assets\js\jquery.min.js" />
+    <Content Include="Content\assets\js\main.js" />
+    <Content Include="Content\assets\js\skel.min.js" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\images\CB1D5DDD.PNG" />
+    <Content Include="Content\images\fulls\01.jpg" />
+    <Content Include="Content\images\fulls\02.jpg" />
+    <Content Include="Content\images\fulls\03.jpg" />
+    <Content Include="Content\images\fulls\04.jpg" />
+    <Content Include="Content\images\fulls\05.jpg" />
+    <Content Include="Content\images\fulls\06.jpg" />
+    <Content Include="Content\images\fulls\07.jpg" />
+    <Content Include="Content\images\fulls\08.jpg" />
+    <Content Include="Content\images\fulls\09.jpg" />
+    <Content Include="Content\images\fulls\10.jpg" />
+    <Content Include="Content\images\fulls\11.jpg" />
+    <Content Include="Content\images\fulls\12.jpg" />
+    <Content Include="Content\images\fulls\customerpromo_image.png" />
+    <Content Include="Content\images\LogoPNG-1.png" />
+    <Content Include="Content\images\Logo_watermark.png" />
+    <Content Include="Content\images\thumbs\01.jpg" />
+    <Content Include="Content\images\thumbs\02.jpg" />
+    <Content Include="Content\images\thumbs\03.jpg" />
+    <Content Include="Content\images\thumbs\04.jpg" />
+    <Content Include="Content\images\thumbs\05.jpg" />
+    <Content Include="Content\images\thumbs\06.jpg" />
+    <Content Include="Content\images\thumbs\07.jpg" />
+    <Content Include="Content\images\thumbs\08.jpg" />
+    <Content Include="Content\images\thumbs\09.jpg" />
+    <Content Include="Content\images\thumbs\10.jpg" />
+    <Content Include="Content\images\thumbs\11.jpg" />
+    <Content Include="Content\images\thumbs\12.jpg" />
+    <Content Include="Content\images\thumbs\customerpromo_image.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -160,6 +209,30 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Content\assets\fonts\fontawesome-webfont.eot" />
+    <Content Include="Content\assets\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Content\assets\fonts\fontawesome-webfont.woff" />
+    <Content Include="Content\assets\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Content\assets\fonts\FontAwesome.otf" />
+    <Content Include="Content\assets\sass\base\_page.scss" />
+    <Content Include="Content\assets\sass\base\_typography.scss" />
+    <Content Include="Content\assets\sass\components\_button.scss" />
+    <Content Include="Content\assets\sass\components\_form.scss" />
+    <Content Include="Content\assets\sass\components\_icon.scss" />
+    <Content Include="Content\assets\sass\components\_list.scss" />
+    <Content Include="Content\assets\sass\ie8.scss" />
+    <Content Include="Content\assets\sass\ie9.scss" />
+    <Content Include="Content\assets\sass\layout\_footer.scss" />
+    <Content Include="Content\assets\sass\layout\_header.scss" />
+    <Content Include="Content\assets\sass\layout\_main.scss" />
+    <Content Include="Content\assets\sass\layout\_thumbnails.scss" />
+    <Content Include="Content\assets\sass\layout\_viewer.scss" />
+    <Content Include="Content\assets\sass\libs\_functions.scss" />
+    <Content Include="Content\assets\sass\libs\_mixins.scss" />
+    <Content Include="Content\assets\sass\libs\_skel.scss" />
+    <Content Include="Content\assets\sass\libs\_vars.scss" />
+    <Content Include="Content\assets\sass\main.scss" />
+    <Content Include="Content\assets\sass\noscript.scss" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -171,6 +244,7 @@
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
+    <None Include="Views\Home\index.cshtml" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -184,7 +258,6 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
-    <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
